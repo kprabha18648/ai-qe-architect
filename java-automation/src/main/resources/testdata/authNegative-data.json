@@ -1,0 +1,39 @@
+[
+  {
+    "requestBody": {
+      "username": "invaliduser",
+      "password": "password123"
+    }
+  },
+  {
+    "requestBody": {
+      "username": "invaliduser23",
+      "password": "password123456"
+    }
+  },
+  {
+    "requestBody": {
+      "username": "invaliduser23",
+      "password": ""
+    }
+  },
+  {
+    "requestBody": {
+      "username": "",
+      "password": "password123456"
+    }
+  },
+  {
+    "requestBody": {
+      "username": "^^^^^^^^^^^^^^",
+      "password": "@@@@@@@@@@@@@@@"
+    }
+  },
+  {
+    "requestBody": {
+      "username": null,
+      "password": "@@@@@@@@@@@@@@@"
+    }
+  }
+
+]

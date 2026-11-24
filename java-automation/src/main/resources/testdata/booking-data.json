@@ -1,0 +1,51 @@
+
+[
+  {
+    "requestBody": {
+      "firstname": "Prabhakar",
+      "lastname": "Rao",
+      "totalprice": 100,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-15"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    "testData": {
+      "updatedPrice": 300
+    }
+  },
+  {
+    "requestBody": {
+      "firstname": "Jhon",
+      "lastname": "Anna",
+      "totalprice": 250,
+      "depositpaid": false,
+      "bookingdates": {
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-15"
+      },
+      "additionalneeds": "Lunch"
+    },
+    "testData": {
+      "updatedPrice": 400
+    }
+  },
+  {
+    "requestBody": {
+      "firstname": "Bubby",
+      "lastname": "Rao",
+      "totalprice": 300,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2026-12-10",
+        "checkout": "2026-12-15"
+      },
+      "additionalneeds": "Dinner"
+    },
+    "testData": {
+      "updatedPrice": 500
+    }
+  }
+]
